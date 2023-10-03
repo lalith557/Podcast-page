@@ -1,44 +1,123 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
-    height: 700px;
-    width: 380px;
-    border-radius: 25px;
+.podcast_homepage_container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    background-size: cover;
+    width: 100vw;
+    height: 32vh;
+    padding: 16px;
 }
 
-.main-heading {
+.podcast_homepage_heading {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.body_container {
+    padding: 12px;
+}
+
+.row1_container {
     text-align: center;
-    background-color: #323f4b;
-    color: #ffffff;
+    margin: 10px;
+}
+
+.puri_jaganadh {
+    height: 17vh;
+}
+
+.puri_heading {
     font-family: "Roboto";
-    font-size: 20px;
-    padding: 18px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    color: #151765;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 6px;
 }
 
-.message-container {
-    padding: 25px;
-}
-
-.message-text {
-    color: #ffffff;
+.discription {
     font-family: "Roboto";
-    padding: 10px;
+    color: #5a7184;
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.message-received {
-    background-color: #52606d;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+.body_container2 {
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-.message-sent {
-    background-color: #47a3f3;
+.bg_color_container {
+    background-color: #151765;
+    height: 2vh;
+    width: 100vw;
+}
+
+.body_container2 {
+    padding: 20px;
+}
+
+.puri_heading1 {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.discription1 {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 10px;
+    height: 18px;
+}
+
+.discription2 {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 10px;
+    height: 18px;
+}
+
+.puri_card_container {
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+.puri_books {
+    margin: 12px;
+}
+
+.puri_heading2 {
+    font-family: "Roboto";
+    color: #151765;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.discription3 {
+    font-family: "Roboto";
+    color: #5a7184;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.discription4 {
+    font-family: "Roboto";
+    color: #5a7184;
+    font-size: 10px;
+    height: 18px;
+}
+
+.button_container {
     text-align: right;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+}
+
+.button {
+    background-color: #151765;
+    color: #ffffff;
+    font-family: "Roboto";
+    width: 75px;
+    height: 26px;
+    border-radius: 16px;
+    font-size: 12px;
 }
